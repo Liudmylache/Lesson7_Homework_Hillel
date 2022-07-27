@@ -9,7 +9,8 @@ public class Logic {
         mapOfUrls= new TreeMap<>();
     }
 
-    public static Map<String, Integer> findRecurringStrings(List<String> listOfUrls, List<String> listOfDomainsOfFirstLevel, Map<String, Integer> mapOfUrls){
+    public static Map<String, Integer> findRecurringStrings(List<String> listOfUrls, List<String> listOfDomainsOfFirstLevel,
+                                                            Map<String, Integer> mapOfUrls){
         for (int i = 0; i<listOfUrls.size(); i++){
             for(int d = 0; d<listOfDomainsOfFirstLevel.size(); d++)
                 if (isFound(listOfUrls.get(i), listOfDomainsOfFirstLevel.get(d))) {

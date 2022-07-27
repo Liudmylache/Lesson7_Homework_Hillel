@@ -7,5 +7,4 @@ public class Main {
         Logic.findRecurringStrings(Url.listOfUrls,Domain.listOfDomainsOfFirstLevel,Logic.mapOfUrls);
         Logic.printSortedMap(10);
         }
-
     }

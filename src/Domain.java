@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.util.*;
 
 public class Domain {
-    static List<String> listOfDomainsOfFirstLevel = new ArrayList<>();
+    static List<String> listOfDomainsOfFirstLevel;
     static FileReader fileReader1;
 
     static {
